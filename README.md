@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+Fiz esse aplicativo em Flutter: https://play.google.com/store/apps/details?id=com.caickmarques.jogo.contar_pontos.
+A ideia é fazer a contagem de pontos do jogo de baralho "Pontinho".
+Pretendia realizar melhorias, porém não conhecia a GitHub na época e eu perdi o meu código :/  
+Então estou reiniciando esse projeto, assim vou trazer as melhorias e correções com uma versão totalmente nova.
+>>>>>>> 62944156c1a9b4cf11d6edb82389d14f5fdd01f8
