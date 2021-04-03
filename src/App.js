@@ -1,7 +1,5 @@
 import GlobalStyle from '../src/styles/GlobalStyles';
-import { MainHeader } from '../src/components/MainHeader';
-import { Content } from '../src/components/Content';
-import { Footer } from './components/Footer';
+import { MainPage } from './pages/mainPage';
 import { ThemeProvider } from 'styled-components';
 import light from './styles/themes/light';
 
@@ -11,9 +9,7 @@ function App() {
     <>
       <ThemeProvider theme={light}>
         <GlobalStyle />
-        <MainHeader />
-        <Content />
-        <Footer />
+        <MainPage />
       </ThemeProvider>
     </>
   )

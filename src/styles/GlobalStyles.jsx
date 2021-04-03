@@ -8,7 +8,6 @@ export default createGlobalStyle`
     }
     html, body, #root{
         height: 100%;
-        background-color: ${(props) => props.theme.colors.secondary};
     } 
 
     *, button, input {
