@@ -4,7 +4,7 @@ import { Container } from './style';
 export const MainHeader = () => {
   return (
     <Container>
-      <h1>Contador de pontos</h1>
+      <h1>Contador de Pontos</h1>
     </Container>
   );
 };

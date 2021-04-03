@@ -6,20 +6,16 @@ export const Container = styled.footer`
   width: 100%;
   height: auto;
   padding: 12px;
-  background: linear-gradient(
-    137deg,
-    rgba(195, 34, 153, 1) 0%,
-    rgba(253, 187, 45, 1) 100%
-  );
-  border-radius: 20px 20px 0 0;
+  background: ${(props) => props.theme.colors.tertiary};
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  box-shadow: 0px -4px 17px 0px rgba(50, 50, 50, 0.2);
 `;
 
 export const AddPlayer = styled.button`
   background-color: transparent;
-  color: #ffffff;
+  color: ${(props) => props.theme.colors.primary};
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,7 +23,7 @@ export const AddPlayer = styled.button`
 
   > div {
     font-size: 35px;
-    border: 2px solid #ffffff;
+    border: 2px solid ${(props) => props.theme.colors.primary};
     border-radius: 50%;
     width: 40%;
     padding: 7px;
